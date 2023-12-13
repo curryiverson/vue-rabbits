@@ -1,23 +1,9 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <el-button type="primary">Primary</el-button>
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-
-    </div>
-  </header>
-
-  <RouterView />
+  <!-- 路由出口 -->
+<RouterView></RouterView>
 </template>
 
 <style scoped>
